@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWITCH IN JS</title>
+</head>
+<body>
+    <H1>SWITCH STATEMENT IN JAVASCRIPT</H1>
+    <h4>In this activity, learn about the switch statement and how it is useful in JS</h4>
+    <p>The switch statement is used to perform different actions based on different conditions. It is
+similar to a series of if...else statements but is more concise and easier to read when you have multiple conditions to check.</p>
+    <p>Here is the syntax of a switch statement:</p>
+    <pre><code>
+        switch(expression) {
+            case value1:
+                // code to be executed if expression === value1
+                break;
+            case value2:
+                // code to be executed if expression === value2
+                break;
+            ...
+            default:
+                // code to be executed if expression doesn't match any case
+        }
+    </code></pre>
+    <p>Example of a switch statement:</p>
+    <pre><code>
+        <script>
+            var day = new Date().getDay();
+            switch(day) {
+                case 0:
+                    document.write("Today is Sunday");
+                    break;
+                case 1:
+                    document.write("Today is Monday");
+                    break;
+                case 2:
+                    document.write("Today is Tuesday");
+                    break;
+                case 3:
+                    document.write("Today is Wednesday");
+                    break;
+                case 4:
+                    document.write("Today is Thursday");
+                    break;
+                case 5:
+                    document.write("Today is Friday");
+                    break;
+                case 6:
+                    document.write("Today is Saturday");
+                    break;
+                default:
+                    document.write("Invalid day");
+            }
+        </script>
+    </code></pre>
+   
+</html>
